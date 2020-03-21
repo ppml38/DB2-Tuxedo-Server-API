@@ -1,0 +1,1 @@
+jdbc:db2://<IP>:<Port>/<DB name>

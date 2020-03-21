@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>DB2 web client</title>
+<link rel="icon" type="image/png" href="favicon.png" />
+<script src="Code.js"></script>
+<script src="genie.js"></script>
+<link rel="stylesheet" type="text/css" href="theme.css">
+</style>
+</head>
+<body>
+<div class="cover">
+<span class="title">Enter book id&nbsp;&nbsp;&nbsp;</span>
+<span>
+<input type="text" id="rq" class="search_box" placeholder="Primary key value"></input>
+<button onclick="send()" class="search">Search</button>
+</span>
+</div>
+<br>
+<div class="body_wrapper">
+  <div class="content_wrapper">
+	<ul class="left_side">
+	
+		<ul class="card">
+				<li class="card_title">Book name</li>
+				<li class="card_content left" id="ogs_text">&nbsp</li>
+		</ul>
+
+
+		<ul class="card">
+			<li class="card_title">Author</li>
+			<li class="card_content" id="ogs_addr">&nbsp</li>
+		</ul>
+
+	</ul>
+
+	<ul class="right_side">
+		<ul class="card">
+			<li class="card_title">Language</li>
+			<li class="card_content left" id="air_text">&nbsp</li>
+		</ul>
+
+		<ul class="card">
+			<li class="card_title">Released on</li>
+			<li class="card_content" id="air_addr">&nbsp</li>
+		</ul>
+
+	</ul>
+  </div>
+</div>
+
+
+</body>
+</html>
