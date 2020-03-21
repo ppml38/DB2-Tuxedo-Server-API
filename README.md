@@ -14,3 +14,5 @@ For this you require a IBM mainframe with DB2 database, wrapped with tuxedo serv
 5. Enter values to complete the query
 6. Press send
 7. Result will be updated below
+
+![](UserScreenShot.png)
