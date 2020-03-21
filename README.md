@@ -7,12 +7,13 @@ This implementation consist of,
 
 ### How to use it?
 For this you require a IBM mainframe with DB2 database, wrapped with tuxedo server
+In the server program,
 1. Configure the IP address of tuxedo server
 2. Configure query that need to be executed (or change the html page to get query from user)
 3. Start the server program
 4. Get the index page from server via http from your browser
 5. Enter values to complete the query
-6. Press send
+6. Press search
 7. Result will be updated below
 
 ![](UserScreenShot.png)
