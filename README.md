@@ -8,6 +8,7 @@ This implementation consist of,
 ### How to use it?
 For this you require a IBM mainframe with DB2 database, wrapped with tuxedo server
 In the server program,
+Install the latest IBM Db2 driver software from ![https://www.ibm.com/support/pages/db2-jdbc-driver-versions-and-downloads](https://www.ibm.com/support/pages/db2-jdbc-driver-versions-and-downloads) inside Genie folder
 1. Configure the IP address of tuxedo server
 2. Configure query that need to be executed (or change the html page to get query from user)
 3. Start the server program
